@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DATA PAGE</title>
+</head>
+<body>
+
+<h2>Welcome to Data Page</h2>
+<p>Your data shown below</p>
+{{if.}}
+    FIRST NAME: {{.FirstName}}<br>
+    LAST NAME: {{.LastName}}<br>
+    USER NAME: {{.UserName}}<br>
+    PASS WORD: {{.PassWord}}<br>
+{{end}}
+<br>
+<h2>Want to log out?</h2>
+<p><strong>click the link below for Log out</strong></p>
+<h1><a href="/logout">logout</a></h1>
+
+</body>
+</html>
