@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration PAGE</title>
+</head>
+<body>
+
+<h2>Successful registration, Basic Credentials are </h2>
+{{if.}}
+    FIRST NAME {{.FirstName}}<br>
+    LAST NAME {{.LastName}}<br>
+    USER NAME {{.UserName}}<br>
+{{end}}    
+<br>
+<p><strong>click the link below for login</strong></p>
+<h1><a href="/login">LOGIN</a></h1>
+
+</body>
+</html>

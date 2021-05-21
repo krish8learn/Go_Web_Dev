@@ -1,0 +1,10 @@
+1.Entry point --> type handler which is a Interface have ServeHTTP method with ResponseWriter and 
+pointer to the request
+
+2.Listen and Serve takes an Handler 
+
+3.For Routing we use mux/serveMux, New servemux gives us back type pointer to the serve mux 
+with this pointer we look at the methods ServeHTTP with ResponseWriter and pointer to the request 
+implments handler interface 
+
+4. handle(takes handler) and handlefunc(func with responseWriter and pointer to request)

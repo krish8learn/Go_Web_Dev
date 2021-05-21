@@ -1,0 +1,4 @@
+whenever we uploading, reading, stroing a file in server need to use enctype
+enctype="application/x-www-form-urlencoded"
+enctype="text/plain"
+enctype="multipart/form-data" ---> when <input type="file">
