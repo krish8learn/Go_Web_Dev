@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SELECTALL PAGE</title>
+</head>
+<body>
+
+<h2>ALL AVAILABLE DATA</h2>
+    {{range.}}
+    <ol>USER NAME {{.UserName}}<br>
+        FIRST NAME {{.FirstName}}<br>
+        LAST NAME {{.LastName}}<br>
+        PASS WORD {{.PassWord}}<br></ol>
+    {{end}}
+<h2 style="color:blue">OR</h2>
+<h2>want to back to the starting page?</h2>
+<p><strong>click the link below for WELCOME page</strong></p>
+<h1><a href="/welcome">WELCOME</a></h1>
+
+</body>
+</html>
