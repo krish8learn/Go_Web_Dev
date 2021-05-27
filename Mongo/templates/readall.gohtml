@@ -2,20 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UPDATE PAGE</title>
+    <title>SELECTALL PAGE</title>
 </head>
 <body>
 
-<h2>Enter Credentials below for update </h2>
-
-<form method="post">
-    
-    <input type="text" name="title" placeholder="title"><br>
-    <input type="text" name="author" placeholder="author"><br>
-    <input type="submit">
-
-</form>
-
+<h2>ALL AVAILABLE DATA</h2>
+    {{range.}}
+    <ol>ISBN: {{.Isbn}}<br>
+        TITLE: {{.Title}}<br>
+        AUTHOR:  {{.Author}}<br>
+        PRICE: {{.Price}}<br></ol>
+    {{end}}
 <h2 style="color:blue">OR</h2>
 <h2>want to back to the starting page?</h2>
 <p><strong>click the link below for WELCOME page</strong></p>

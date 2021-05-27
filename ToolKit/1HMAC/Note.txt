@@ -1,0 +1,3 @@
+If we want to store information in user machine then we wanna verify that user has not tempered
+with the information, we can check it through HMAC which create hash.
+

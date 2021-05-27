@@ -1,0 +1,20 @@
+Context               
+Purpose of this package is to send deadlines, TIMEOUT and values.
+
+
+1.context.Background() ------- root and empty context 
+2.context.TODO() --------root and empty context 
+
+3.context.WithTimeout() ---------- derived context, root context given to them to acheive timeout, deadlines , values.
+4.context.WithDeadline()
+5.context.WithCancel()
+6.context.WithValue()
+
+
+works in a graph based approach  
+
+Context Interface 4 functions             
+Deadline() (deadline time.Time, ok bool)
+Done() <-chan struct{} 
+Err() error 
+Value(key interface{}) interface{}
